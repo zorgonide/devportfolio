@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>My Portfolio</title>
+    <title>Ammar Khurshid</title>
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	<link rel="icon" href="favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
@@ -47,10 +47,13 @@
     <!-- End header -->
 
     <div id="lead">
+        <div id="particles-js"></div>
+        <script type="text/javascript" src="./js/particles.js"></script>
+        <script type="text/javascript" src="./js/app.js"></script>
         <div id="lead-content">
-            <h1>Ryan Fitzgerald</h1>
-            <h2>Software Engineer</h2>
-            <a href="#" class="btn-rounded-white">Download Resume</a>
+            <h1>Ammar Khurshid</h1>
+            <h2>Frontend Web Developer | MERN Stack</h2>
+            <a href="./static/Ammar Resume.pdf" class="btn-rounded-white">Download Resume</a>
         </div>
         <!-- End #lead-content -->
 
@@ -64,18 +67,26 @@
         <!-- End #lead-down -->
     </div>
     <!-- End #lead -->
-
     <div id="about">
+
         <div class="container">
+
+            <br>
             <div class="row">
                 <div class="col-md-4">
                     <h2 class="heading">About Me</h2>
                 </div>
                 <div class="col-md-8">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat. Donec
-                        eu vehicula neque. Donec viverra lorem nunc, tempus euismod eros sollicitudin ut. Quisque et tincidunt libero. Donec id pharetra justo. Proin euismod lacinia dolor, eu scelerisque justo tempus pharetra. Vivamus nunc justo, finibus
-                        ut nisl sed, euismod rhoncus nulla. Proin sed magna egestas, egestas ante et, congue eros. In consequat, mauris dapibus tincidunt suscipit, ex libero aliquet diam, at maximus risus enim non leo.
+                    <img src="./images/ammar.jpeg" alt="Me" class="rounded center" style="margin-bottom: 10px; border-radius: 80%;" width="150" height="150" >
+                    <br>
+                    <p style="text-align:center;">
+                        Hi, I'm <b>Ammar</b><br>
+                        I'm a 4<sup>th</sup> year undergraduate at <a href="https://manipal.edu/">Manipal Institute of Technology</a>.
+                        <br>
+                        A MERN stack web developer by profession with a proficiency in frontend technologies like ReactJs.
+                        <br/> 
+                        Hit me up for anything and everything tech related, or if you want to see me talk about why Samwise Gamgee is the real hero, not Frodo Baggins.
+
                     </p>
                 </div>
             </div>
@@ -86,27 +97,28 @@
     <div id="experience" class="background-alt">
         <h2 class="heading">Experience</h2>
         <div id="experience-timeline">
-            <div data-date="September 2015 – September 2016">
-                <h3>Employer Name</h3>
-                <h4>Job Title</h4>
+            <div data-date="July 2020 – Present">
+                <h3><a style="text-decoration: none; color: black;" href="https://vigastudios.com/">Viga Studios</a></h3>
+                <h4>Frontend Developer, Intern</h4>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                    Developed a Single-Sign-On (SSO) interface for different services offered by the studio using ReactJs, to interact with a Django server using REST API endpoints. Facilitates user authentication and registry, and serves as a dashboard for users, with the ability to subscribe to different services. And look good while doing so.
                 </p>
             </div>
 
-            <div data-date="September 2015 – September 2016">
-                <h3>Employer Name</h3>
-                <h4>Job Title</h4>
+            <div data-date="June 2020 – July 2020">
+                <h3>EasyRath</h3>
+                <h4>Web Developer, Intern</h4>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                    Developed a web application to use as an inventory tool for a B2B business. Worked with  HTML, CSS, Javascript, Bootstrap for front-end design and SQL for the back-end. Used ElectronJs to package the web app as a .exe file for offline use at client side.
                 </p>
             </div>
 
-            <div data-date="September 2015 – September 2016">
-                <h3>Employer Name</h3>
-                <h4>Job Title</h4>
+            <div data-date="December 2018 - January 2020">
+                <h3><a style="text-decoration: none; color: black;" href="https://www.formulamanipal.in/">Formula Manipal</a></h3>
+                <h4>Driverless Subsystem</h4>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                    Spearheaded a team with the objective to convert combustion and electric vehicles into autonomous vehicles. Worked with Internet of Things, Robotics, Image Processing using OpenCV, and Robot Operating System.<br>
+                    Participated in Formula Bharat 2020 with an electric team, finalists for Ather Energy Software awards.
                 </p>
             </div>
         </div>
@@ -116,28 +128,25 @@
     <div id="education">
         <h2 class="heading">Education</h2>
         <div class="education-block">
-            <h3>University of Ottawa</h3>
-            <span class="education-date">Sept 2016 - Sept 2017</span>
-            <h4>Bachelor of Science in Computer Science</h4>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-            </p>
+            <h3>Manipal Institute of Technology</h3>
+            <span class="education-date">July 2017 - July 2021</span>
+            <h4>Bachelor of Engineering in Information Technology</h4>
+            <ul>
+                <li>CGPA - 7.41</li>
+            </ul>
         </div>
         <!-- End .education-block -->
 
         <div class="education-block">
-            <h3>University of Ottawa</h3>
-            <span class="education-date">Sept 2016 - Sept 2017</span>
-            <h4>Bachelor of Science in Computer Science</h4>
+            <h3>Delhi Public School, Indirapuram</h3>
+            <span class="education-date">April 2011 - April 2016</span>
+            <h4>High School</h4>
             <ul>
                 <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Class 10<sup>th</sup> - 10 CGPA
                 </li>
                 <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Class 12<sup>th</sup> - 87%
                 </li>
             </ul>
         </div>
@@ -151,15 +160,15 @@
             <div class="row">
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img src="images/project.jpg" />
+                        <img src="images/confusion.png" height="180px" width="300px"/>
                     </div>
                     <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Project Name Here</h3>
+                    <div class="project-info" >
+                        <h3>Restaurant website using Bootstrap</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                            Built a website using a mobile-first approach, with the aid of Bootstrap 4 for a sample restaurant. 
                         </p>
-                        <a href="#">View Project</a>
+                        <a href="https://github.com/zorgonide/Bootstrap-Practice">View Project</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -167,15 +176,46 @@
 
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img src="images/project.jpg" />
+                        <img src="images/confusion.png" height="180px" width="300px"/>
+
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Project Name Here</h3>
+                        <h3>Restaurant website using ReactJs</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                            Rebuilt the earlier website using ReactJs Framework as a Single Page application, utilising ReactStrap library for Bootstrap 4, and Redux for managing application state. REST API endpoints were defined using json-server node module to serve information to the front-end.
                         </p>
-                        <a href="#">View Project</a>
+                        <a href="https://github.com/zorgonide/ReactCoursera">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/weatherapp.jpeg" height="180px" width="300px"/>
+
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Weather application using ReactJs</h3>
+                        <p>
+                            A React application that tells the current weather conditions of any city in the world using  OpenWeather API. Bootstrap and ParticleJs used for front-end. 
+                        </p>
+                        <a href="https://github.com/zorgonide/Weather-App">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/bot.png" height="180px" width="300px"/>
+
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Semi-autonomous four-wheeled bot</h3>
+                        <p>
+                            Stream video from a bot using Raspberry Pi and camera to a host computer in master-slave configuration to perform obstacle detection and move the bot around using commands sent from the master computer 
+                        </p>
+                        <a href="https://github.com/zorgonide/FourWheeledBot">View Project</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -188,40 +228,79 @@
     <div id="skills">
         <h2 class="heading">Skills</h2>
         <ul>
+            <li>Web Development</li>
+            <li>Robotics</li>
+        </ul>
+        <br>
+        <h2 class="heading">Languages</h2>
+        <ul>
             <li>JavaScript</li>
             <li>Python</li>
-            <li>Ruby</li>
-            <li>Go</li>
-            <li>Node.js</li>
-            <li>AngularJs</li>
-            <li>React</li>
-            <li>Elixir</li>
-            <li>Java</li>
-            <li>C</li>
-            <li>C#</li>
             <li>C++</li>
-            <li>Ruby on Rails</li>
-            <li>JavaScript</li>
-            <li>Python</li>
-            <li>Ruby</li>
-            <li>Go</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>SQL</li>
+        </ul>
+        <br>
+
+        <h2 class="heading">Technologies</h2>
+        <ul>
+            <li>MongoDB</li>
+            <li>Express</li>
+            <li>ReactJs</li>
             <li>Node.js</li>
-            <li>AngularJs</li>
-            <li>React</li>
-            <li>Elixir</li>
-            <li>Java</li>
-            <li>C</li>
-            <li>C#</li>
-            <li>C++</li>
-            <li>Ruby on Rails</li>
+            <li>ElectronJs</li>
+            <li>Robot Operating System</li>
+            <li>OpenCV</li>
+            <li>Raspberry Pi</li>
+            <li>Postman</li>
+            <li>Figma</li>
+            <li>Bootstrap</li>
+            <li>Material UI</li>
         </ul>
     </div>
     <!-- End #skills -->
+    <div class="optional-section background-alt">
+        <h2 class="heading">Certifications</h2>
+    
+        <div class="optional-section-block">
+            <!-- <h3>Some content title</h3> -->
+            <ul>
+                <li>
+                    Introduction to User Experience Design on Coursera
+                </li>
+                <li>
+                    Front-End Web Development with React on Coursera
+                </li>
+                <li>
+                    Front-End Web UI Frameworks and Tools: Bootstrap 4 on Coursera.
+                </li>
+                <li>
+                    Introduction to Self-Driving Cars by University of Toronto on Coursera. 
+                </li>
+                <li>
+                    The Arduino Platform and C Programming by University of California, Irvine on Coursera. 
+                </li>
+                <li>
+                    Data Analysis with Python by IBM on Coursera.
+                </li>
+                <li>
+                    Build an E-commerce Dashboard with Figma on Coursera
+                </li>
+            </ul>
+        </div>
+        <!-- End .optional-section-block -->
+    
+    </div>
+    <!-- End .optional-section -->
 
     <div id="contact">
+        
         <h2>Get in Touch</h2>
+        <img src="./images/ammar.jpeg" alt="Me" class="rounded" style="margin-bottom: 10px; border-radius: 80%;" width="100" height="100" >
+        <br>
         <div id="contact-form">
-            <form method="POST" action="https://formspree.io/email@email.com">
+            <form method="POST" action="https://getform.io/f/73ebbb0e-851d-4921-ae48-e8f5b4b64f56">
                 <input type="hidden" name="_subject" value="Contact request from personal website" />
                 <input type="email" name="_replyto" placeholder="Your email" required>
                 <textarea name="message" placeholder="Your message" required></textarea>
@@ -237,7 +316,7 @@
             <div class="row">
                 <div class="col-sm-5 copyright">
                     <p>
-                        Copyright &copy; 2017 YOUR NAME
+                        Copyright &copy; 2020 Ammar Khurshid
                     </p>
                 </div>
                 <div class="col-sm-2 top">
@@ -248,19 +327,13 @@
                 <div class="col-sm-5 social">
                     <ul>
                         <li>
-                            <a href="https://github.com/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                            <a href="https://github.com/zorgonide" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
                         </li>
                         <li>
-                            <a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
+                            <a href="https://www.linkedin.com/in/ammar-khurshid-757140177/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                         </li>
                         <li>
-                            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                            <a href="https://www.instagram.com/ammar.khurshid/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
                         </li>
                     </ul>
                 </div>
