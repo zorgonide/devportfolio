@@ -34,7 +34,7 @@
 */
 
 // Define base and accent colors
-$base-color: #3498db;
+$base-color: #34A798;
 $base-color-hover: darken($base-color, 10%);
 
 // Define background colors
@@ -122,6 +122,23 @@ body {
                 color: $text;
                 font-size: 0.9em;
                 margin: 0;
+            }
+            a {
+                display: block;
+                color: $base-color;
+                padding: 10px;
+        
+                &:hover {
+                    color: $base-color-hover;
+                    text-decoration: none;
+                    background: #eee;
+                    border-radius: 4px;
+                }
+        
+                &:focus {
+                    color: $base-color;
+                    text-decoration: none;
+                }
             }
         }
 
@@ -458,7 +475,12 @@ footer {
         margin: 0;
     }
 }
-
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    // width: 50%;
+  }
 /*
     --------------------------------
     ----- 6. Experience Styles -----
